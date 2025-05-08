@@ -1,0 +1,38 @@
+# Ignore git files
+*.git
+
+# Ignore .venv directories (virtual environments)
+.venv/
+env/
+venv/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore logs
+*.log
+
+# Ignore operating system files (macOS, Windows)
+.DS_Store
+Thumbs.db
+
+# Ignore IDE-specific files (PyCharm, VSCode, etc.)
+.vscode/
+.idea/
+
+# Ignore Python virtual environment directories
+/.env/
+
+# Ignore packaging and distribution files
+*.egg
+*.egg-info/
+dist/
+build/
+*.tar.gz
+*.whl
+
+# Ignore sensitive information
+*.env
