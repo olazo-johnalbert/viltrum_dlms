@@ -36,3 +36,6 @@ build/
 
 # Ignore sensitive information
 *.env
+
+# Ignore __pycache__ directories
+__pycache__/
